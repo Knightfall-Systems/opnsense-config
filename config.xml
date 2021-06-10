@@ -284,7 +284,7 @@
       </nextcloud>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>ssh://github.com:Knightfall-Systems/opnsense-config.git</url>
+        <url>ssh://github.com/Knightfall-Systems/opnsense-config.git</url>
         <branch>main</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtz&#xD;
@@ -1111,7 +1111,7 @@ LTIwMjEwNjEwAQIDBAUGBwgJ&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623342419.0082</time>
+    <time>1623342463.5109</time>
     <description>/diag_backup.php made changes</description>
   </revision>
   <OPNsense>
