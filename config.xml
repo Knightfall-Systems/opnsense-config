@@ -471,6 +471,14 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ipaddr>172.18.28.251</ipaddr>
       <subnet>24</subnet>
     </opt13>
+    <openvpn>
+      <internal_dynamic>1</internal_dynamic>
+      <enable>1</enable>
+      <if>openvpn</if>
+      <descr>OpenVPN</descr>
+      <type>group</type>
+      <virtual>1</virtual>
+    </openvpn>
   </interfaces>
   <dhcpd>
     <opt2>
@@ -1110,8 +1118,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623342999.0801</time>
-    <description>/system_certmanager.php made changes</description>
+    <time>1623343269.8554</time>
+    <description>/vpn_openvpn_server.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2486,7 +2494,36 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </virtualip>
   <crl/>
   <openvpn>
-    <openvpn-server/>
+    <openvpn-server>
+      <mode>server_tls_user</mode>
+      <protocol>UDP4</protocol>
+      <dev_mode>tun</dev_mode>
+      <local_port>1194</local_port>
+      <description>KFS Main VPN</description>
+      <crypto>AES-256-GCM</crypto>
+      <digest>SHA512</digest>
+      <tunnel_network>192.168.76.0/24</tunnel_network>
+      <local_network>172.18.0.0/16</local_network>
+      <compression>lz4-v2</compression>
+      <client2client>yes</client2client>
+      <dynamic_ip>yes</dynamic_ip>
+      <pool_enable>yes</pool_enable>
+      <topology_subnet>yes</topology_subnet>
+      <local_group>admins</local_group>
+      <netbios_ntype>0</netbios_ntype>
+      <verbosity_level>3</verbosity_level>
+      <vpnid>1</vpnid>
+      <authmode>Local Database</authmode>
+      <interface>wan_vip1</interface>
+      <ipaddr>47.190.65.60</ipaddr>
+      <custom_options/>
+      <tls>IwojIDIwNDggYml0IE9wZW5WUE4gc3RhdGljIGtleQojCi0tLS0tQkVHSU4gT3BlblZQTiBTdGF0aWMga2V5IFYxLS0tLS0KZDgwYWM0YTExM2RhMTA4MzU0YmU0MmFmNDc0N2RlYzkKZTgxZGIzZWQ0ZTRlZWNlZjBjMTdlZTRmN2E5MzQ5NjIKY2EwYzgxZmQ0YjUzMDEyNjkzMzdiMDdlNjJjYWMzMWYKOTQ4NTI1NzM5YzU3YjNhOTczNWM1NmM3YTc4MzhhNjEKNWVmMWEzN2I2ZDAwZTcwNGI2MjUyZjEyOGYwZTI0M2MKMzdiNDQzNzk1ZWE5MjNlMDllM2EzYzc3NjcyOWJkZWYKZWI2NTc1ODJiNjU3NWMzMWU5MzQ4NDQ2N2YzZTFiMmYKYWIxNDk5NWZmNjk0YzRmZTA1MmUzZDliODVkNTZhZWEKMGI4OGRiODY4NTQyYzE1MzgxYzAxZWQ5ZjY5YzdmMTAKMTFkNDAwZjRlNDBmZDZjYTBhODM0N2Q4OGI0ODkxMDAKNjI1M2U3MzNmMDAzMjhlNmFhMDJjYzZmOGE4NWZiNGIKY2U1M2FkOGIyYmY3OWRlNzM1ZTg5MTIyNjg5NjZiNGIKZWJiYzFjYTVmNWI3NGYxODUzMGFhZGY0YTFhOTk1YzYKZWI0NTY5YjY5MmVmMGZmMzcyZTBmZjBmMWYwMTM1MjMKYzBiYzBiZDQ4MmY5MjI3ZWZiNzIyYWIxNThiMTc3YWEKODhkMGI1NDZiMmNkZWExODdjZjI4NWMyZWU4YWI5NjEKLS0tLS1FTkQgT3BlblZQTiBTdGF0aWMga2V5IFYxLS0tLS0K</tls>
+      <caref>60a183c2f026a</caref>
+      <crlref/>
+      <certref>60a183e611a06</certref>
+      <dh_length>4096</dh_length>
+      <cert_depth>1</cert_depth>
+    </openvpn-server>
   </openvpn>
   <hasync>
     <pfsyncinterface>opt1</pfsyncinterface>
