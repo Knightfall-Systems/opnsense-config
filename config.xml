@@ -287,14 +287,13 @@
         <url>ssh://github.com/Knightfall-Systems/opnsense-config.git</url>
         <branch>main</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#xD;
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtz&#xD;
-c2gtZWQyNTUxOQAAACCR7XD4/5H/Tm3gsNvbz8G67R2kpcZY0esaN8OPoQN/SAAA&#xD;
-AKD03U8/9N1PPwAAAAtzc2gtZWQyNTUxOQAAACCR7XD4/5H/Tm3gsNvbz8G67R2k&#xD;
-pcZY0esaN8OPoQN/SAAAAECB0wugYcbZ5/VmJKbiAo2U5SnjtgSbsd76/91fe0FJ&#xD;
-t5HtcPj/kf9ObeCw29vPwbrtHaSlxljR6xo3w4+hA39IAAAAFGVkMjU1MTkta2V5&#xD;
-LTIwMjEwNjEwAQIDBAUGBwgJ&#xD;
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#xD;
+QyNTUxOQAAACDXcrxStxYFXIAKRB8C9EO5oL/I+Fd9jd1eFytrsxbJbAAAAJio4DS+qOA0&#xD;
+vgAAAAtzc2gtZWQyNTUxOQAAACDXcrxStxYFXIAKRB8C9EO5oL/I+Fd9jd1eFytrsxbJbA&#xD;
+AAAEBUZl4Odb4RoJeEAdwyWEvkXDOjoA3lzaQLDfnD1lf06ddyvFK3FgVcgApEHwL0Q7mg&#xD;
+v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
 -----END OPENSSH PRIVATE KEY-----</privkey>
-        <user>forsytheda</user>
+        <user>git</user>
         <password/>
       </git>
     </backup>
@@ -1111,7 +1110,7 @@ LTIwMjEwNjEwAQIDBAUGBwgJ&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623342463.5109</time>
+    <time>1623342700.9126</time>
     <description>/diag_backup.php made changes</description>
   </revision>
   <OPNsense>
