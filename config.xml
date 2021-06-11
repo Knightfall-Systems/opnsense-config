@@ -535,8 +535,14 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <subnet>22</subnet>
     </opt22>
     <opt23>
-      <descr>OPT23</descr>
       <if>bridge5</if>
+      <descr>PUBLIC</descr>
+      <enable>1</enable>
+      <lock>1</lock>
+      <spoofmac/>
+      <blockbogons>1</blockbogons>
+      <ipaddr>172.18.20.251</ipaddr>
+      <subnet>22</subnet>
     </opt23>
     <opt24>
       <descr>OPT24</descr>
@@ -1054,7 +1060,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623389181.506</time>
+    <time>1623389220.12</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
