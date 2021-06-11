@@ -1024,6 +1024,30 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </rule>
     <rule>
       <type>pass</type>
+      <interface>opt19</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@172.18.2.150</username>
+        <time>1623389718.3224</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@172.18.2.150</username>
+        <time>1623389718.3224</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <type>pass</type>
       <interface>opt24</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
@@ -1105,7 +1129,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623389712.8148</time>
+    <time>1623389718.3431</time>
     <description>/firewall_rules_edit.php made changes</description>
   </revision>
   <OPNsense>
