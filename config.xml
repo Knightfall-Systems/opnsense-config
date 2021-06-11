@@ -1192,7 +1192,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623370379.5024</time>
+    <time>1623373548.0194</time>
     <description>/vpn_openvpn_server.php made changes</description>
   </revision>
   <OPNsense>
@@ -2582,12 +2582,11 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <openvpn-server>
       <mode>server_tls_user</mode>
       <protocol>UDP4</protocol>
-      <dev_mode>tun</dev_mode>
+      <dev_mode>tap</dev_mode>
       <local_port>1194</local_port>
       <description>KFS Main VPN</description>
       <crypto>AES-256-GCM</crypto>
       <digest>SHA512</digest>
-      <tunnel_network>192.168.76.0/24</tunnel_network>
       <gwredir>yes</gwredir>
       <compression>lz4-v2</compression>
       <client2client>yes</client2client>
@@ -2595,6 +2594,14 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <pool_enable>yes</pool_enable>
       <topology_subnet>yes</topology_subnet>
       <local_group>admins</local_group>
+      <serverbridge_dhcp>yes</serverbridge_dhcp>
+      <serverbridge_interface>opt6</serverbridge_interface>
+      <serverbridge_dhcp_start>172.18.2.150</serverbridge_dhcp_start>
+      <serverbridge_dhcp_end>172.18.2.199</serverbridge_dhcp_end>
+      <dns_server1>1.1.1.1</dns_server1>
+      <dns_server2>1.0.0.1</dns_server2>
+      <push_register_dns>yes</push_register_dns>
+      <push_block_outside_dns>yes</push_block_outside_dns>
       <netbios_ntype>0</netbios_ntype>
       <verbosity_level>3</verbosity_level>
       <vpnid>1</vpnid>
