@@ -922,7 +922,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623388377.2346</time>
+    <time>1623388378.6335</time>
     <description>/interfaces_vlan.php made changes</description>
   </revision>
   <OPNsense>
@@ -2087,13 +2087,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </OpenVPNExport>
   </OPNsense>
   <vlans>
-    <vlan>
-      <if>bridge0</if>
-      <tag>28</tag>
-      <pcp>0</pcp>
-      <descr>ENVIROGAMES</descr>
-      <vlanif>bridge0_vlan28</vlanif>
-    </vlan>
+    <vlan/>
   </vlans>
   <ca>
     <refid>60a183c2f026a</refid>
