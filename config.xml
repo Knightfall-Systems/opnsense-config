@@ -436,8 +436,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt11>
       <if>bridge0_vlan20</if>
       <descr>PRIVATE</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>172.18.20.251</ipaddr>
@@ -1197,8 +1195,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623386471.8724</time>
-    <description>Interface SERVICES(opt10) is now disabled.</description>
+    <time>1623386475.0409</time>
+    <description>Interface PRIVATE(opt11) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
