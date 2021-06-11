@@ -425,8 +425,11 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <spoofmac/>
     </opt8>
     <opt9>
-      <descr>OPT9</descr>
       <if>igb2_vlan8</if>
+      <descr>vlan8_port1</descr>
+      <enable>1</enable>
+      <lock>1</lock>
+      <spoofmac/>
     </opt9>
     <opt10>
       <descr>MANAGEMENT</descr>
@@ -976,7 +979,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623388702.8849</time>
+    <time>1623388712.2666</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
