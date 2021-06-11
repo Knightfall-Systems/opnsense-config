@@ -446,6 +446,10 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <descr>OPT15</descr>
       <if>igb2_vlan20</if>
     </opt15>
+    <opt16>
+      <descr>PUBLIC</descr>
+      <if>igb3_vlan20</if>
+    </opt16>
   </interfaces>
   <dhcpd>
     <opt2>
@@ -958,7 +962,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623388572.2649</time>
+    <time>1623388574.3661</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
