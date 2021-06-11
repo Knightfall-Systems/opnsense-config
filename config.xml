@@ -1006,7 +1006,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623388909.3195</time>
+    <time>1623388922.0913</time>
     <description>/interfaces_bridge_edit.php made changes</description>
   </revision>
   <OPNsense>
@@ -2487,6 +2487,24 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <members>opt9,opt10</members>
       <stp>opt9,opt10</stp>
       <ptp>opt9,opt10</ptp>
+      <ifpriority/>
+      <ifpathcost/>
+    </bridged>
+    <bridged>
+      <enablestp>1</enablestp>
+      <descr/>
+      <maxaddr/>
+      <timeout/>
+      <bridgeif>bridge3</bridgeif>
+      <maxage/>
+      <fwdelay/>
+      <hellotime/>
+      <priority/>
+      <proto>rstp</proto>
+      <holdcnt/>
+      <members>opt11,opt12</members>
+      <stp>opt11,opt12</stp>
+      <ptp>opt11,opt12</ptp>
       <ifpriority/>
       <ifpathcost/>
     </bridged>
