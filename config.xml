@@ -1006,7 +1006,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623389050.9509</time>
+    <time>1623389056.6339</time>
     <description>/interfaces_bridge_edit.php made changes</description>
   </revision>
   <OPNsense>
@@ -2546,7 +2546,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </bridged>
     <bridged>
       <enablestp>1</enablestp>
-      <descr/>
+      <descr>ENVIROGAMES</descr>
       <maxaddr/>
       <timeout/>
       <bridgeif>bridge6</bridgeif>
