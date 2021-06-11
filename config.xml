@@ -441,14 +441,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ipaddr>172.18.24.251</ipaddr>
       <subnet>22</subnet>
     </opt12>
-    <opt13>
-      <if>bridge0_vlan28</if>
-      <descr>ENVIROGAMES</descr>
-      <spoofmac/>
-      <blockbogons>1</blockbogons>
-      <ipaddr>172.18.28.251</ipaddr>
-      <subnet>24</subnet>
-    </opt13>
     <openvpn>
       <internal_dynamic>1</internal_dynamic>
       <enable>1</enable>
@@ -1052,57 +1044,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt13</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow to own network</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt13</network>
-      </source>
-      <destination>
-        <network>opt13</network>
-      </destination>
-      <updated>
-        <username>root@47.222.158.26</username>
-        <time>1623340926.4495</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@47.222.158.26</username>
-        <time>1623340834.7683</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt13</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow to external networks</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt13</network>
-      </source>
-      <destination>
-        <address>local_networks</address>
-        <not>1</not>
-      </destination>
-      <updated>
-        <username>root@47.222.158.26</username>
-        <time>1623340933.8418</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@47.222.158.26</username>
-        <time>1623340801.4455</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <scrub>
       <rule/>
     </scrub>
@@ -1162,7 +1103,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623386483.4963</time>
+    <time>1623386485.2203</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
