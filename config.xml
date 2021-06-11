@@ -462,8 +462,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt13>
       <if>bridge0_vlan28</if>
       <descr>ENVIROGAMES</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>172.18.28.251</ipaddr>
@@ -1207,8 +1205,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623386452.7719</time>
-    <description>Interface MAINTENANCE(opt8) is now disabled.</description>
+    <time>1623386457.3241</time>
+    <description>Interface ENVIROGAMES(opt13) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
