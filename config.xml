@@ -1192,8 +1192,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623373548.0194</time>
-    <description>/vpn_openvpn_server.php made changes</description>
+    <time>1623376904.9006</time>
+    <description>/interfaces_bridge_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2686,8 +2686,9 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <priority>8192</priority>
       <proto>rstp</proto>
       <holdcnt/>
-      <members>opt2,opt3</members>
+      <members>opt5,opt2,opt3</members>
       <stp>opt2,opt3</stp>
+      <edge>opt5</edge>
       <ptp>opt2,opt3</ptp>
       <ifpriority/>
       <ifpathcost/>
