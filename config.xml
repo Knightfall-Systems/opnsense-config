@@ -586,8 +586,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </opt3>
     <opt6>
       <enable>1</enable>
-      <failover_peerip>172.18.0.252</failover_peerip>
-      <failover_split>256</failover_split>
       <gateway>172.18.0.1</gateway>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
@@ -1225,8 +1223,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623389742.4471</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1623389924.1687</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
