@@ -450,7 +450,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <if>igb3_vlan12</if>
     </opt12>
     <opt13>
-      <descr>OPT13</descr>
+      <descr>vlan16_port1</descr>
       <if>igb2_vlan16</if>
     </opt13>
     <opt14>
@@ -985,8 +985,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623388733.3173</time>
-    <description>/interfaces.php made changes</description>
+    <time>1623388739.2999</time>
+    <description>Interface vlan16_port1(opt13) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
