@@ -601,6 +601,20 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <dnsserver/>
       <ntpserver/>
     </opt6>
+    <opt19>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>172.18.7.1</from>
+        <to>172.18.7.254</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt19>
   </dhcpd>
   <unbound>
     <custom_options/>
@@ -1065,9 +1079,9 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@47.222.158.26</username>
-    <time>1623389239.6028</time>
-    <description>/interfaces.php made changes</description>
+    <username>root@172.18.2.150</username>
+    <time>1623389309.7792</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
