@@ -600,7 +600,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </opt6>
     <opt19>
       <enable>1</enable>
-      <gateway>172.18.4.1</gateway>
       <domain>infra.knightfall.net</domain>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
@@ -1240,8 +1239,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623495352.5775</time>
-    <description>/services_dhcp_edit.php made changes</description>
+    <time>1623495508.9629</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
