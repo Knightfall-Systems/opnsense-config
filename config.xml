@@ -1220,9 +1220,9 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1623392894.2252</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@172.18.2.150</username>
+    <time>1623493795.8151</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -1336,8 +1336,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <templates/>
     </captiveportal>
     <Interfaces>
-      <loopbacks version="1.0.0"/>
-      <vxlans version="1.0.1"/>
+      <loopbacks/>
+      <vxlans/>
     </Interfaces>
     <unboundplus>
       <dnsbl version="0.0.1">
@@ -2789,5 +2789,5 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ifpathcost/>
     </bridged>
   </bridges>
-  <staticroutes version="1.0.0"/>
+  <staticroutes/>
 </opnsense>
