@@ -611,6 +611,14 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <winsserver/>
       <dnsserver/>
       <ntpserver/>
+      <staticmap>
+        <mac>e0:d1:73:f6:19:ee</mac>
+        <ipaddr>172.18.4.2</ipaddr>
+        <hostname>sgx-primary</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt19>
   </dhcpd>
   <unbound>
@@ -1221,8 +1229,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623493795.8151</time>
-    <description>/services_dhcp.php made changes</description>
+    <time>1623494690.699</time>
+    <description>/services_dhcp_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
