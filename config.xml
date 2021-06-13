@@ -554,6 +554,10 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ipaddr>172.18.24.251</ipaddr>
       <subnet>22</subnet>
     </opt24>
+    <opt25>
+      <descr>OPT25</descr>
+      <if>bridge0_vlan32</if>
+    </opt25>
   </interfaces>
   <dhcpd>
     <opt2>
@@ -1224,8 +1228,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623613758.0634</time>
-    <description>/interfaces_vlan_edit.php made changes</description>
+    <time>1623613762.2244</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
