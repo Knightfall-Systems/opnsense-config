@@ -475,7 +475,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </opt15>
     <opt16>
       <if>igb3_vlan20</if>
-      <descr>V20</descr>
+      <descr>V20P2</descr>
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
@@ -1224,7 +1224,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623596926.2217</time>
+    <time>1623596929.961</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
