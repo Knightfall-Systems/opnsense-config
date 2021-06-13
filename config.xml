@@ -623,6 +623,20 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <staticmap/>
       <pool/>
     </opt19>
+    <opt25>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>172.18.35.1</from>
+        <to>172.18.35.254</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt25>
   </dhcpd>
   <unbound>
     <custom_options/>
@@ -1232,8 +1246,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623613778.9991</time>
-    <description>/interfaces.php made changes</description>
+    <time>1623613808.0626</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
