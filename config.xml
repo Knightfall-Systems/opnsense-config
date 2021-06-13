@@ -1223,9 +1223,9 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@47.222.158.26</username>
-    <time>1623612121.6314</time>
-    <description>Leave CARP maintenance mode</description>
+    <username>root@172.18.2.150</username>
+    <time>1623613758.0634</time>
+    <description>/interfaces_vlan_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2472,6 +2472,13 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <pcp>0</pcp>
       <descr>ENVIROGAMES</descr>
       <vlanif>igb3_vlan24</vlanif>
+    </vlan>
+    <vlan>
+      <if>bridge0</if>
+      <tag>32</tag>
+      <pcp>0</pcp>
+      <descr/>
+      <vlanif>bridge0_vlan32</vlanif>
     </vlan>
   </vlans>
   <ca>
