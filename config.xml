@@ -447,7 +447,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </opt11>
     <opt12>
       <if>igb3_vlan12</if>
-      <descr>vlan12_port2</descr>
+      <descr>V12P2</descr>
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
@@ -1224,7 +1224,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623596905.0626</time>
+    <time>1623596909.697</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
