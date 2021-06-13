@@ -1224,8 +1224,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623612074.0428</time>
-    <description>Enter CARP maintenance mode</description>
+    <time>1623612076.287</time>
+    <description>Leave CARP maintenance mode</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2848,5 +2848,4 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </bridged>
   </bridges>
   <staticroutes/>
-  <virtualip_carp_maintenancemode>1</virtualip_carp_maintenancemode>
 </opnsense>
