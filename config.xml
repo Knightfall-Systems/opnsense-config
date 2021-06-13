@@ -1224,7 +1224,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623596986.8837</time>
+    <time>1623597005.7473</time>
     <description>/firewall_virtual_ip_edit.php made changes</description>
   </revision>
   <OPNsense>
@@ -2573,6 +2573,17 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <interface>opt20</interface>
       <subnet>172.18.8.1</subnet>
       <vhid>4</vhid>
+      <advskew>0</advskew>
+      <advbase>1</advbase>
+      <password>ZB$65RCrtbg!z8CudH4vCPUkN*WQE*</password>
+    </vip>
+    <vip>
+      <type>single</type>
+      <subnet_bits>22</subnet_bits>
+      <mode>carp</mode>
+      <interface>opt21</interface>
+      <subnet>172.18.12.1</subnet>
+      <vhid>5</vhid>
       <advskew>0</advskew>
       <advbase>1</advbase>
       <password>ZB$65RCrtbg!z8CudH4vCPUkN*WQE*</password>
