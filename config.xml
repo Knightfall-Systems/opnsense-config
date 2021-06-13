@@ -482,7 +482,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </opt16>
     <opt17>
       <if>igb2_vlan24</if>
-      <descr>vlan24_port1</descr>
+      <descr>V24P1</descr>
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
@@ -1224,7 +1224,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623596929.961</time>
+    <time>1623596934.0495</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
