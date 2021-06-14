@@ -593,7 +593,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <pool/>
     </opt3>
     <opt6>
-      <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>
@@ -1256,8 +1255,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623643011.5912</time>
-    <description>/firewall_rules_edit.php made changes</description>
+    <time>1623644143.0569</time>
+    <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
