@@ -395,8 +395,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt6>
       <if>bridge0</if>
       <descr>LAN</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>172.18.0.251</ipaddr>
@@ -1253,8 +1251,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623644152.5382</time>
-    <description>Interface ENVIROGAMES(opt24) is now disabled.</description>
+    <time>1623644155.0396</time>
+    <description>Interface LAN(opt6) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
