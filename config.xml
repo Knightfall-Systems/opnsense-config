@@ -392,14 +392,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <lock>1</lock>
       <spoofmac/>
     </opt5>
-    <opt6>
-      <if>bridge0</if>
-      <descr>LAN</descr>
-      <spoofmac/>
-      <blockbogons>1</blockbogons>
-      <ipaddr>172.18.0.251</ipaddr>
-      <subnet>22</subnet>
-    </opt6>
     <openvpn>
       <internal_dynamic>1</internal_dynamic>
       <enable>1</enable>
@@ -530,19 +522,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <staticmap/>
       <pool/>
     </opt3>
-    <opt6>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>172.18.3.1</from>
-        <to>172.18.3.254</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-    </opt6>
   </dhcpd>
   <unbound>
     <custom_options/>
@@ -926,31 +905,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </rule>
     <rule>
       <type>pass</type>
-      <interface>opt6</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow to all networks</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt6</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@47.222.158.26</username>
-        <time>1623340950.9531</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@47.222.158.26</username>
-        <time>1623340950.9531</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
       <interface>opt24</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
@@ -1032,7 +986,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623644185.4867</time>
+    <time>1623644187.0039</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
