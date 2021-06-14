@@ -220,6 +220,7 @@
       <scope>system</scope>
       <gid>1999</gid>
       <member>0</member>
+      <member>2000</member>
       <priv>page-all</priv>
     </group>
     <user>
@@ -235,7 +236,20 @@
       <otp_seed/>
       <cert>60a1841b8c1ba</cert>
     </user>
-    <nextuid>2000</nextuid>
+    <user>
+      <password>$2y$10$GRizL1mTKbBJ4t3zSu8HBOp0bFiNp.yn2RKE7Y64NaZDoL8TNR/Me</password>
+      <scope>user</scope>
+      <name>forsytheda</name>
+      <descr>Duncan Forsythe</descr>
+      <expires/>
+      <authorizedkeys/>
+      <ipsecpsk/>
+      <otp_seed>X5E7AUXXAMLZ6WD3QW7L6UGQ2BJZVMXN</otp_seed>
+      <email>duncan.forsythe@knightfall.net</email>
+      <shell>/bin/sh</shell>
+      <uid>2000</uid>
+    </user>
+    <nextuid>2001</nextuid>
     <nextgid>2000</nextgid>
     <timezone>America/Chicago</timezone>
     <timeservers>time.cloudflare.com</timeservers>
@@ -840,8 +854,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623645275.1954</time>
-    <description>/vpn_openvpn_server.php made changes</description>
+    <time>1623645476.9777</time>
+    <description>user "forsytheda" created</description>
   </revision>
   <OPNsense>
     <Firewall>
