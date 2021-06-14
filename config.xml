@@ -438,8 +438,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt14>
       <if>igb3_vlan16</if>
       <descr>V16P2</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
     </opt14>
     <opt15>
@@ -940,8 +938,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623644469.2896</time>
-    <description>Interface V16P1(opt13) is now disabled.</description>
+    <time>1623644472.3012</time>
+    <description>Interface V16P2(opt14) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
