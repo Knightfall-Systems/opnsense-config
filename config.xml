@@ -400,11 +400,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <type>group</type>
       <virtual>1</virtual>
     </openvpn>
-    <opt14>
-      <if>igb3_vlan16</if>
-      <descr>V16P2</descr>
-      <spoofmac/>
-    </opt14>
     <opt15>
       <if>igb2_vlan20</if>
       <descr>V20P1</descr>
@@ -895,7 +890,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623644497.6444</time>
+    <time>1623644499.09</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
