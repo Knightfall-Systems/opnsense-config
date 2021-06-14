@@ -377,6 +377,9 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
+      <blockbogons>1</blockbogons>
+      <ipaddr>192.168.12.251</ipaddr>
+      <subnet>23</subnet>
     </opt3>
     <opt4>
       <if>ztbc1svef39ecn2</if>
@@ -873,7 +876,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623644800.3144</time>
+    <time>1623644813.6292</time>
     <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
