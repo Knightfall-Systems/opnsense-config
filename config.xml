@@ -554,14 +554,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ipaddr>172.18.24.251</ipaddr>
       <subnet>22</subnet>
     </opt24>
-    <opt25>
-      <if>bridge0_vlan32</if>
-      <descr>TEST</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>172.18.32.251</ipaddr>
-      <subnet>22</subnet>
-    </opt25>
   </interfaces>
   <dhcpd>
     <opt2>
@@ -623,20 +615,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <staticmap/>
       <pool/>
     </opt19>
-    <opt25>
-      <enable>1</enable>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>172.18.35.1</from>
-        <to>172.18.35.254</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-    </opt25>
   </dhcpd>
   <unbound>
     <custom_options/>
@@ -1187,30 +1165,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt25</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@172.18.2.150</username>
-        <time>1623613823.4888</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@172.18.2.150</username>
-        <time>1623613823.4888</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <scrub>
       <rule/>
     </scrub>
@@ -1269,9 +1223,9 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>(system)</username>
-    <time>1623640705.8027</time>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <username>root@172.18.2.150</username>
+    <time>1623642961.5063</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -1385,8 +1339,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <templates/>
     </captiveportal>
     <Interfaces>
-      <loopbacks version="1.0.0"/>
-      <vxlans version="1.0.1"/>
+      <loopbacks/>
+      <vxlans/>
     </Interfaces>
     <unboundplus>
       <dnsbl version="0.0.1">
@@ -2900,5 +2854,5 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ifpathcost/>
     </bridged>
   </bridges>
-  <staticroutes version="1.0.0"/>
+  <staticroutes/>
 </opnsense>
