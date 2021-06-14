@@ -543,7 +543,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt25>
       <if>igb2_vlan32</if>
       <descr>TEST</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>172.18.32.251</ipaddr>
       <subnet>22</subnet>
@@ -1241,8 +1240,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623644168.6515</time>
-    <description>Interface SERVICES(opt21) is now disabled.</description>
+    <time>1623644171.4554</time>
+    <description>Interface TEST(opt25) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
