@@ -954,7 +954,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623644422.9859</time>
+    <time>1623644424.8362</time>
     <description>/interfaces_bridge.php made changes</description>
   </revision>
   <OPNsense>
@@ -2456,24 +2456,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </step9>
   </wizardtemp>
   <bridges>
-    <bridged>
-      <enablestp>1</enablestp>
-      <descr>ENVIROGAMES</descr>
-      <maxaddr/>
-      <timeout/>
-      <bridgeif>bridge6</bridgeif>
-      <maxage/>
-      <fwdelay/>
-      <hellotime/>
-      <priority>8192</priority>
-      <proto>rstp</proto>
-      <holdcnt/>
-      <members>opt17,opt18</members>
-      <stp>opt17,opt18</stp>
-      <ptp>opt17,opt18</ptp>
-      <ifpriority/>
-      <ifpathcost/>
-    </bridged>
+    <bridged/>
   </bridges>
   <staticroutes>
     <route/>
