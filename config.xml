@@ -503,8 +503,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt20>
       <if>bridge2</if>
       <descr>MANAGEMENT</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>172.18.8.251</ipaddr>
@@ -1249,8 +1247,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623644158.4564</time>
-    <description>Interface MAINTENANCE(opt19) is now disabled.</description>
+    <time>1623644160.9962</time>
+    <description>Interface MANAGEMENT(opt20) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
