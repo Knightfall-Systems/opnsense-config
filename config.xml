@@ -508,14 +508,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ipaddr>172.18.8.251</ipaddr>
       <subnet>22</subnet>
     </opt20>
-    <opt21>
-      <if>bridge3</if>
-      <descr>SERVICES</descr>
-      <spoofmac/>
-      <blockbogons>1</blockbogons>
-      <ipaddr>172.18.12.251</ipaddr>
-      <subnet>22</subnet>
-    </opt21>
     <opt22>
       <if>bridge4</if>
       <descr>PRIVATE</descr>
@@ -1056,30 +1048,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </rule>
     <rule>
       <type>pass</type>
-      <interface>opt21</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@172.18.2.150</username>
-        <time>1623389742.4261</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@172.18.2.150</username>
-        <time>1623389742.4261</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
       <interface>opt22</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
@@ -1209,7 +1177,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623644175.7357</time>
+    <time>1623644177.6071</time>
     <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
