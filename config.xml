@@ -540,13 +540,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ipaddr>172.18.24.251</ipaddr>
       <subnet>22</subnet>
     </opt24>
-    <opt25>
-      <if>igb2_vlan32</if>
-      <descr>TEST</descr>
-      <spoofmac/>
-      <ipaddr>172.18.32.251</ipaddr>
-      <subnet>22</subnet>
-    </opt25>
   </interfaces>
   <dhcpd>
     <opt2>
@@ -1157,30 +1150,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <interface>opt25</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@172.18.2.150</username>
-        <time>1623643011.5716</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@172.18.2.150</username>
-        <time>1623643011.5716</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <scrub>
       <rule/>
     </scrub>
@@ -1240,8 +1209,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623644171.4554</time>
-    <description>Interface TEST(opt25) is now disabled.</description>
+    <time>1623644175.7357</time>
+    <description>/interfaces_assign.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
