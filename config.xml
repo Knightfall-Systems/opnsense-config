@@ -263,6 +263,7 @@
       <ssl-hsts>1</ssl-hsts>
       <althostnames>opn-vip.knightfall.net opn-master.knightfall.net opn-backup.knightfall.net opn-vip.realm.knightfall.net opn-master.realm.knightfall.net opn-backup.realm.knightfall.net</althostnames>
       <disablehttpredirect>1</disablehttpredirect>
+      <noantilockout>1</noantilockout>
     </webgui>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
@@ -853,9 +854,9 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <column_count>2</column_count>
   </widgets>
   <revision>
-    <username>root@47.222.158.26</username>
-    <time>1623645552.2904</time>
-    <description>user "forsytheda" changed</description>
+    <username>forsytheda@47.222.158.26</username>
+    <time>1623645826.9227</time>
+    <description>/system_advanced_firewall.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
