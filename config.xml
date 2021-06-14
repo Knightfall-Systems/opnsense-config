@@ -242,7 +242,7 @@
       <name>forsytheda</name>
       <descr>Duncan Forsythe</descr>
       <expires/>
-      <authorizedkeys/>
+      <authorizedkeys>c3NoLWVkMjU1MTkgQUFBQUMzTnphQzFsWkRJMU5URTVBQUFBSUVlUEZ3emFJVE1lL21GVy9sNGYrbjBKRWNkNWxLdVNyU3djL3I2WnJSdVYgb3BlbnBncDoweENCNjVFNEFD</authorizedkeys>
       <ipsecpsk/>
       <otp_seed>X5E7AUXXAMLZ6WD3QW7L6UGQ2BJZVMXN</otp_seed>
       <email>duncan.forsythe@knightfall.net</email>
@@ -854,8 +854,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623645476.9777</time>
-    <description>user "forsytheda" created</description>
+    <time>1623645552.2904</time>
+    <description>user "forsytheda" changed</description>
   </revision>
   <OPNsense>
     <Firewall>
