@@ -453,8 +453,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt17>
       <if>igb2_vlan24</if>
       <descr>V24P1</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
     </opt17>
     <opt18>
@@ -934,8 +932,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623644477.1315</time>
-    <description>Interface V20P2(opt16) is now disabled.</description>
+    <time>1623644479.9555</time>
+    <description>Interface V24P1(opt17) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
