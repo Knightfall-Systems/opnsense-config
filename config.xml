@@ -848,8 +848,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623645239.2712</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1623645243.7168</time>
+    <description>/api/interfaces/loopback_settings/delItem/bd22d5c1-1912-4780-893f-9b003c5079c6 made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -964,12 +964,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     </captiveportal>
     <Interfaces>
       <vxlans/>
-      <loopbacks version="0.0.0">
-        <loopback uuid="bd22d5c1-1912-4780-893f-9b003c5079c6">
-          <deviceId>1</deviceId>
-          <description>VPN_LOOPBACK</description>
-        </loopback>
-      </loopbacks>
+      <loopbacks version="0.0.0"/>
     </Interfaces>
     <unboundplus>
       <dnsbl version="0.0.1">
