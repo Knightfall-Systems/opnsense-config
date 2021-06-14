@@ -1224,8 +1224,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623642961.5063</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1623642973.7179</time>
+    <description>/interfaces_vlan_edit.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2474,11 +2474,11 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <vlanif>igb3_vlan24</vlanif>
     </vlan>
     <vlan>
-      <if>bridge0</if>
+      <if>igb2</if>
       <tag>32</tag>
       <pcp>0</pcp>
       <descr/>
-      <vlanif>bridge0_vlan32</vlanif>
+      <vlanif>igb2_vlan32</vlanif>
     </vlan>
   </vlans>
   <ca>
