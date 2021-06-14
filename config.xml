@@ -425,19 +425,19 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ntpserver/>
     </opt2>
     <opt3>
+      <enable>1</enable>
+      <gateway>192.168.12.1</gateway>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>
       </numberoptions>
       <range>
-        <from>192.168.20.100</from>
-        <to>192.168.20.199</to>
+        <from>192.168.13.100</from>
+        <to>192.168.13.199</to>
       </range>
       <winsserver/>
       <dnsserver/>
       <ntpserver/>
-      <staticmap/>
-      <pool/>
     </opt3>
   </dhcpd>
   <unbound>
@@ -879,7 +879,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623645056.9684</time>
+    <time>1623645081.6045</time>
     <description>/services_dhcp.php made changes</description>
   </revision>
   <OPNsense>
