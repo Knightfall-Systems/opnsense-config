@@ -555,8 +555,12 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <subnet>22</subnet>
     </opt24>
     <opt25>
-      <descr>OPT25</descr>
       <if>igb2_vlan32</if>
+      <descr>TEST</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>172.18.32.251</ipaddr>
+      <subnet>22</subnet>
     </opt25>
   </interfaces>
   <dhcpd>
@@ -1228,8 +1232,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623642978.4386</time>
-    <description>/interfaces_assign.php made changes</description>
+    <time>1623642995.6969</time>
+    <description>/interfaces.php made changes</description>
   </revision>
   <OPNsense>
     <Firewall>
@@ -2858,5 +2862,7 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
       <ifpathcost/>
     </bridged>
   </bridges>
-  <staticroutes/>
+  <staticroutes>
+    <route/>
+  </staticroutes>
 </opnsense>
