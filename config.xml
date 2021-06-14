@@ -408,8 +408,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt8>
       <if>igb3_vlan4</if>
       <descr>V4P2</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
     </opt8>
     <opt9>
@@ -952,8 +950,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@47.222.158.26</username>
-    <time>1623644453.7152</time>
-    <description>Interface V4P1(opt7) is now disabled.</description>
+    <time>1623644456.3615</time>
+    <description>Interface V4P2(opt8) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
