@@ -529,8 +529,6 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
     <opt23>
       <if>bridge5</if>
       <descr>PUBLIC</descr>
-      <enable>1</enable>
-      <lock>1</lock>
       <spoofmac/>
       <blockbogons>1</blockbogons>
       <ipaddr>172.18.20.251</ipaddr>
@@ -1245,8 +1243,8 @@ v8j4V32N3V4XK2uzFslsAAAAFWZvcnN5QERFU0tUT1AtMlNCMFI0MQ==&#xD;
   </widgets>
   <revision>
     <username>root@172.18.2.150</username>
-    <time>1623644163.7912</time>
-    <description>Interface PRIVATE(opt22) is now disabled.</description>
+    <time>1623644166.2731</time>
+    <description>Interface PUBLIC(opt23) is now disabled.</description>
   </revision>
   <OPNsense>
     <Firewall>
